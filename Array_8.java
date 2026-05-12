@@ -48,7 +48,6 @@ public class Array_8 {
 
     public static int[] numAcabatsEn(int num[], int darrerNombre) {
 
-        //Array que almacenara los numeros terminados en el numero pedido
         int acabatsEn[] = new int[num.length];
 
         int nombreFinal;
