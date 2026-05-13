@@ -7,7 +7,11 @@ public class Array_10 {
         final int tamany = 10;
         double notes[] = new double[tamany];
         String nomsEstudiants[] = new String[tamany];
+
+        // Emplenar arrays amb introduccions de teclat
         emplenarArray(notes, nomsEstudiants);
+
+        // S'ensenyen les notes dels estudiants
         avaluacioNota(notes, nomsEstudiants);
     }
 
