@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Array_23 {
+
     @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
 

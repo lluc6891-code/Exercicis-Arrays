@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Array_22 {
+
     @SuppressWarnings("ConvertToTryWithResources")
     public static void main(String[] args) {
 
@@ -21,7 +23,7 @@ public class Array_22 {
         int i = 0;
         while (i < mida) {
             // Generem un nombre aleatori entre minim i maxim
-            int nombreAleatori = (int)(Math.random() * (maxim - minim + 1)) + minim;
+            int nombreAleatori = (int) (Math.random() * (maxim - minim + 1)) + minim;
 
             // Comprovem si el nombre ja esta a l'array
             boolean repetit = false;

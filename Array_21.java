@@ -1,6 +1,8 @@
+
 import java.util.Scanner;
 
 public class Array_21 {
+
     static Scanner scanner = new Scanner(System.in);
     static String jugador1, jugador2;
     static int puntsJugador1 = 0, puntsJugador2 = 0;
@@ -66,7 +68,9 @@ public class Array_21 {
         String pista = scanner.nextLine().trim();
 
         // Posem linies en blanc per que l'altre jugador no vegi la paraula
-        for (int i = 0; i < 20; i++) System.out.println();
+        for (int i = 0; i < 20; i++) {
+            System.out.println();
+        }
 
         // Mostrem la informacio per al jugador que ha d'endevinar
         System.out.println("--------------------------------------------------");
