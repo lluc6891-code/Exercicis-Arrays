@@ -14,10 +14,6 @@ public class Array_17 {
 
     }
 
-    /**
-     * @param lista
-     *
-     */
     public static void ordenacioBimbolla(int lista[]) {
         int cuentaintercambios = 0;
         for (boolean ordenado = false; !ordenado;) {
