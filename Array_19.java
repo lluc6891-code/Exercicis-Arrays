@@ -16,13 +16,6 @@ public class Array_19 {
 
     }
 
-    /**
-     * Utilitzant Quicksort
-     *
-     * @param array
-     * @param esquerra
-     * @param dreta
-     */
     public static void ordenacionQuicksort(int array[], int esquerra, int dreta) {
         int i = esquerra;
         int j = dreta;
